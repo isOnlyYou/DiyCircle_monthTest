@@ -24,7 +24,7 @@ public class MyDiyCircle extends View {
     private float outCircleRadius;
 
     //内圆半径
-    private float inCircleRadius;
+    private float inCircleRadius ;
 
     //圆环颜色
     private int ringColor;
@@ -36,7 +36,7 @@ public class MyDiyCircle extends View {
     private int textSize;
 
     //圆环宽度
-    private float ringWidth;
+    private float ringWidth ;
 
     //圆心的X坐标
     private int centerX;
@@ -105,6 +105,8 @@ public class MyDiyCircle extends View {
         paint.setStyle(Paint.Style.FILL);
         //矩形的参数
         Rect rect = new Rect();
+
+        //左：左边那条线距屏幕左边缘的距离，以下同理
         rect.left = (int) (centerX - outCircleRadius - ringWidth / 2);
         rect.right = (int) (centerX + outCircleRadius + ringWidth / 2);
         rect.top = (int) (centerY - outCircleRadius - ringWidth / 2);

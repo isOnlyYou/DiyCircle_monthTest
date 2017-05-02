@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         MyDiyCircle my_diy = (MyDiyCircle) findViewById(R.id.my_diy);
 
         my_diy.setCenterText("圆心");
-        my_diy.setInCircleRadius(80);
-        my_diy.setOutCircleRadius(100);
+        my_diy.setInCircleRadius(160);
+        my_diy.setOutCircleRadius(200);
         my_diy.setRingColor(Color.YELLOW);
         my_diy.setTextSize(40);
-        my_diy.setRingWidth(60);
+        my_diy.setRingWidth(80);
     }
 }
