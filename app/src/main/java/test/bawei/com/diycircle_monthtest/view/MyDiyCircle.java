@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 /**
  * Created by acer on 2017/4/29.
+ * 郭雪冰
  */
 public class MyDiyCircle extends View {
 
