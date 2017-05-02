@@ -36,9 +36,17 @@ public class MyDiyCircle extends View {
 
     //圆环宽度
     private float ringWidth;
+
+    //圆心的X坐标
     private int centerX;
+
+    //圆心的y坐标
     private int centerY;
+
+    //点击处的X坐标
     private float x;
+
+    //点击处的Y坐标
     private float y;
 
     public void setRingWidth(float ringWidth) {
@@ -142,6 +150,7 @@ public class MyDiyCircle extends View {
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
 
+                //手指按下时获得点击处的X、Y坐标
                 x = event.getX();
                 y = event.getY();
 
